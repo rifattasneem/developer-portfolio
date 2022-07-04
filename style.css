@@ -8,13 +8,18 @@ h1 {
    font-size: 50px;
 }
 
-h1 span {
+h2 {
+   font-size: 40px;
+}
+
+h1 span,
+.experience-half h3 {
    color: orange;
 }
 
 .container {
    display: flex;
-   margin-bottom: 100px;
+   margin-bottom: 50px;
 }
 
 .top-banner {
@@ -43,4 +48,33 @@ h1 span {
    text-decoration: none;
    background: linear-gradient(45deg, lightsalmon, tomato);
    border-radius: 5px;
+}
+
+.experience-area {
+   background-image: url(images/exp-bg.png);
+   background-repeat: no-repeat;
+   background-position: left center;
+}
+
+.experience-area h1 {
+   margin-left: 5%;
+}
+
+.experience-half {
+   width: 40%;
+   margin: 0 3% 0 5%;
+   padding: 2% 3%;
+   box-shadow: 10px 10px 40px #d8d8d8;
+}
+
+#first-half {
+   border-left: 7px solid tomato;
+}
+
+#second-half {
+   border-left: 7px solid blue;
+}
+
+footer p {
+   text-align: center;
 }
